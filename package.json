@@ -31,7 +31,7 @@
 		"framer-motion": "^10.12.16",
 		"get-youtube-id": "^1.0.1",
 		"next": "^13.4.4",
-		"next-sanity": "^4.3.3",
+		"next-sanity": "^7.0.10",
 		"next-sanity-image": "^6.0.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
