@@ -42,7 +42,7 @@ export default function Home() {
     ],
   };
   return (
-    <div>
+    <div className="w-full">
       <header className="bg-black block w-full">
         <div className="container mx-auto py-6 flex justify-between items-center">
           <a href="/" className="relative w-[140px]">
@@ -95,7 +95,7 @@ export default function Home() {
           </nav>
         </div>
       </header>
-      <section className="relative z-10 flex justify-center items-center bg-hero-pattern bg-no-repeat bg-center bg-cover h-[calc(100vh-120px)] min-h-[300px]">
+      <section className="flex justify-center items-center bg-hero-pattern bg-no-repeat bg-center bg-cover h-[calc(100vh-120px)] min-h-[300px]">
         <div className="container mx-auto text-center">
           <h1 className="text-5xl md:text-8xl font-sans font-bold tracking-wider">
             <Split splitMode="chars" delay={0}>
@@ -104,7 +104,7 @@ export default function Home() {
           </h1>
         </div>
       </section>
-      <section id="about" className="bg-black relative z-10">
+      <section id="about" className="bg-black">
         <div className="container mx-auto  flex flex-col md:flex-row justify-between items-center py-14 md:py-32">
           <div className="md:w-6/12 md:mr-10 mb-10 md:mb-0">
             <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-white relative inline-block pb-4 text-white text-4xl mb-6 font-sans font-semibold tracking-wide">
@@ -134,7 +134,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="gallery" className="bg-white relative z-20">
+      <section id="gallery" className="bg-white">
         <div className="container mx-auto py-14 md:py-32">
           <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-black relative inline-block pb-4 text-black text-4xl mb-6 font-sans font-semibold tracking-wide">
             <Split splitMode="chars" delay={0}>
@@ -188,7 +188,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="events" className="bg-black relative z-10">
+      <section id="events" className="bg-black">
         <div className="container mx-auto py-14 md:py-14 md:py-32">
           <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-white relative inline-block pb-4 text-white text-4xl mb-6 font-sans font-semibold tracking-wide">
             <Split splitMode="chars" delay={0}>
@@ -244,7 +244,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section id="news" className="bg-white relative z-10 mb-[320px]">
+      <section id="news" className="bg-white">
         <div className="container mx-auto py-14 md:py-32">
           <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-black relative inline-block pb-4 text-black text-4xl mb-6 font-sans font-semibold tracking-wide">
             <Split splitMode="chars" delay={0}>
@@ -313,7 +313,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <footer className="bg-black fixed w-full bottom-0">
+      <footer className="bg-black" id="contact">
         <div className="container mx-auto py-14 md:py-32 flex flex-col md:flex-row justify-between items-center">
           <a href="/" className="relative w-[100px] h-[60px]">
             <Image src="https://placehold.co/100x60" alt="Borths Mans Shed" layout="fill" objectFit="contain" unoptimized />
@@ -328,7 +328,6 @@ export default function Home() {
           </div>
         </div>
       </footer>
-      <div id="contact"></div>
     </div>
   );
 }
