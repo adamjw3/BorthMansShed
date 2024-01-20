@@ -20,7 +20,7 @@ const Split = ({ children, splitMode, delay = 0 }: SplitProps) => {
       split();
     };
 
-    const animate = (text) => {
+    const animate = (text: any) => {
       gsap.from(text, {
         delay: delay,
         y: "105%",
@@ -53,8 +53,8 @@ const Split = ({ children, splitMode, delay = 0 }: SplitProps) => {
       animate(text.words);
     };
 
-    const addWrapper = (text) => {
-      text!.map((item) => {
+    const addWrapper = (text: any) => {
+      text!.map((item: any) => {
         const wrapEl = document.createElement("span");
         wrapEl.classList.add("inline-block", "relative", "overflow-hidden");
         item!.parentNode!.insertBefore(wrapEl, item.nextSibling);
@@ -63,12 +63,14 @@ const Split = ({ children, splitMode, delay = 0 }: SplitProps) => {
     };
 
     const split = () => {
-      if (splitMode === "chars") {
-        splitChars();
-      } else if (splitMode === "lines") {
-        splitLines();
-      } else if (splitMode === "words") {
-        splitWords();
+      if (typeof window !== "undefined") {
+        if (splitMode === "chars") {
+          splitChars();
+        } else if (splitMode === "lines") {
+          splitLines();
+        } else if (splitMode === "words") {
+          splitWords();
+        }
       }
     };
 

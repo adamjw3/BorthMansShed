@@ -15,7 +15,7 @@ export default function Home() {
   const [burger, setBurger] = useState(false);
   const lenis = useLenis();
 
-  const scrollToAnchor = (event: MouseEvent<HTMLAnchorElement>, targetId: string, duration: number) => {
+  const scrollToAnchor = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>, targetId: string, duration: number) => {
     event.preventDefault();
     setBurger(false);
     lenis.scrollTo(targetId, { duration: duration });
