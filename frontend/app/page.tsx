@@ -105,14 +105,14 @@ export default function Home() {
         </div>
       </section>
       <section id="about" className="bg-black relative z-10">
-        <div className="container mx-auto  flex flex-col md:flex-row justify-between items-center py-32">
+        <div className="container mx-auto  flex flex-col md:flex-row justify-between items-center py-14 md:py-32">
           <div className="md:w-6/12 md:mr-10 mb-10 md:mb-0">
-            <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-white relative inline-block pb-4 text-white text-4xl mb-8 font-sans font-semibold tracking-wide">
+            <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-white relative inline-block pb-4 text-white text-4xl mb-6 font-sans font-semibold tracking-wide">
               <Split splitMode="chars" delay={0}>
                 About Us
               </Split>
             </h2>
-            <div className="text-white text-base font-sans font-normal leading-10 space-y-6">
+            <div className="text-white text-base font-sans font-normal leading-7 space-y-6">
               <p>
                 <Split splitMode="lines" delay={0}>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin erat ex, pulvinar ac tempus finibus, mollis at sem. Mauris vitae sagittis purus, a finibus nisi. Mauris et rutrum odio.
@@ -135,13 +135,13 @@ export default function Home() {
         </div>
       </section>
       <section id="gallery" className="bg-white relative z-20">
-        <div className="container mx-auto py-32">
-          <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-black relative inline-block pb-4 text-black text-4xl mb-8 font-sans font-semibold tracking-wide">
+        <div className="container mx-auto py-14 md:py-32">
+          <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-black relative inline-block pb-4 text-black text-4xl mb-6 font-sans font-semibold tracking-wide">
             <Split splitMode="chars" delay={0}>
               Gallery
             </Split>
           </h2>
-          <div className="text-black text-base space-y-6 mb-14 font-sans font-normal leading-10">
+          <div className="text-black text-base space-y-6 mb-14 font-sans font-normal leading-7">
             <p>
               <Split splitMode="lines" delay={0}>
                 Fusce id sollicitudin lorem, in auctor ipsum. Praesent magna justo, accumsan sed mi in.
@@ -151,37 +151,37 @@ export default function Home() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
             <div className="group relative">
               <div className="hidden group-hover:flex absolute w-full h-full bg-black bg-opacity-50 justify-center items-center pointer-events-none">
-                <span className="text-2xl font-sans">Click to enlarge</span>
+                <span className="text-l md:text-2xl font-sans">Click to enlarge</span>
               </div>
               <ModalImage small="https://placehold.co/300x300" large="https://placehold.co/2000x2000" hideDownload={true} hideZoom={true} alt="Image Title" className="w-full" />
             </div>
             <div className="group relative">
               <div className="hidden group-hover:flex absolute w-full h-full bg-black bg-opacity-50 justify-center items-center pointer-events-none">
-                <span className="text-2xl font-sans">Click to enlarge</span>
+                <span className="text-l md:text-2xl font-sans">Click to enlarge</span>
               </div>
               <ModalImage small="https://placehold.co/300x300" large="https://placehold.co/1000x1000" hideDownload={true} hideZoom={true} alt="Image Title" className="w-full" />
             </div>
             <div className="group relative">
               <div className="hidden group-hover:flex absolute w-full h-full bg-black bg-opacity-50 justify-center items-center pointer-events-none">
-                <span className="text-2xl font-sans">Click to enlarge</span>
+                <span className="text-l md:text-2xl font-sans">Click to enlarge</span>
               </div>
               <ModalImage small="https://placehold.co/300x300" large="https://placehold.co/1000x1000" hideDownload={true} hideZoom={true} alt="Image Title" className="w-full" />
             </div>
             <div className="group relative">
               <div className="hidden group-hover:flex absolute w-full h-full bg-black bg-opacity-50 justify-center items-center pointer-events-none">
-                <span className="text-2xl font-sans">Click to enlarge</span>
+                <span className="text-l md:text-2xl font-sans">Click to enlarge</span>
               </div>
               <ModalImage small="https://placehold.co/300x300" large="https://placehold.co/1000x1000" hideDownload={true} hideZoom={true} alt="Image Title" className="w-full" />
             </div>
             <div className="group relative">
               <div className="hidden group-hover:flex absolute w-full h-full bg-black bg-opacity-50 justify-center items-center pointer-events-none">
-                <span className="text-2xl font-sans">Click to enlarge</span>
+                <span className="text-l md:text-2xl font-sans">Click to enlarge</span>
               </div>
               <ModalImage small="https://placehold.co/300x300" large="https://placehold.co/1000x1000" hideDownload={true} hideZoom={true} alt="Image Title" className="w-full" />
             </div>
             <div className="group relative">
               <div className="hidden group-hover:flex absolute w-full h-full bg-black bg-opacity-50 justify-center items-center pointer-events-none">
-                <span className="text-2xl font-sans">Click to enlarge</span>
+                <span className="text-l md:text-2xl font-sans">Click to enlarge</span>
               </div>
               <ModalImage small="https://placehold.co/300x300" large="https://placehold.co/1000x1000" hideDownload={true} hideZoom={true} alt="Image Title" className="w-full" />
             </div>
@@ -189,13 +189,13 @@ export default function Home() {
         </div>
       </section>
       <section id="events" className="bg-black relative z-10">
-        <div className="container mx-auto py-32">
-          <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-white relative inline-block pb-4 text-white text-4xl mb-8 font-sans font-semibold tracking-wide">
+        <div className="container mx-auto py-14 md:py-14 md:py-32">
+          <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-white relative inline-block pb-4 text-white text-4xl mb-6 font-sans font-semibold tracking-wide">
             <Split splitMode="chars" delay={0}>
               Events
             </Split>
           </h2>
-          <div className="text-white text-base space-y-6 mb-14 font-sans font-normal leading-10">
+          <div className="text-white text-base space-y-6 mb-14 font-sans font-normal leading-7">
             <p>
               <Split splitMode="lines" delay={0}>
                 Fusce id sollicitudin lorem, in auctor ipsum. Praesent magna justo, accumsan sed mi in.
@@ -245,13 +245,13 @@ export default function Home() {
         </div>
       </section>
       <section id="news" className="bg-white relative z-10 mb-[320px]">
-        <div className="container mx-auto py-32">
-          <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-black relative inline-block pb-4 text-black text-4xl mb-8 font-sans font-semibold tracking-wide">
+        <div className="container mx-auto py-14 md:py-32">
+          <h2 className="before:absolute before:bottom-0 before:w-6/12 before:h-0.5 before:bg-black relative inline-block pb-4 text-black text-4xl mb-6 font-sans font-semibold tracking-wide">
             <Split splitMode="chars" delay={0}>
               News
             </Split>
           </h2>
-          <div className="text-black text-base space-y-6 mb-14 font-sans font-normal leading-10">
+          <div className="text-black text-base space-y-6 mb-14 font-sans font-normal leading-7">
             <p>
               <Split splitMode="lines" delay={0}>
                 Fusce id sollicitudin lorem, in auctor ipsum. Praesent magna justo, accumsan sed mi in.
@@ -314,7 +314,7 @@ export default function Home() {
         </div>
       </section>
       <footer className="bg-black fixed w-full bottom-0">
-        <div className="container mx-auto py-32 flex flex-col md:flex-row justify-between items-center">
+        <div className="container mx-auto py-14 md:py-32 flex flex-col md:flex-row justify-between items-center">
           <a href="/" className="relative w-[100px] h-[60px]">
             <Image src="https://placehold.co/100x60" alt="Borths Mans Shed" layout="fill" objectFit="contain" unoptimized />
           </a>
