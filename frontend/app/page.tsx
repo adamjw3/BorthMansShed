@@ -105,7 +105,7 @@ export default function Home() {
           <div className="text-black text-2xl font-sans font-normal leading-10 space-y-6">
             <p>
               <Split splitMode="words" delay={0}>
-                Men's sheds are community spaces where men can gather, socialize, and work on common projects.
+                Men&apos;s sheds are community spaces where men can gather, socialize, and work on common projects.
               </Split>
             </p>
           </div>
