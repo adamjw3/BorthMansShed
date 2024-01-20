@@ -102,13 +102,6 @@ export default function Home() {
               Borth Mens shed
             </Split>
           </h1>
-          <div className="text-black text-2xl font-sans font-normal leading-10 space-y-6">
-            <p>
-              <Split splitMode="words" delay={0}>
-                Men&apos;s sheds are community spaces where men can gather, socialize, and work on common projects.
-              </Split>
-            </p>
-          </div>
         </div>
       </section>
       <section id="about" className="bg-black relative z-10">
