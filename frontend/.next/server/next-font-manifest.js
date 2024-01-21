@@ -1,1 +1,0 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/adamwright/Documents/Development/BorthManShed/frontend/app/layout":["static/media/7c0848dffe5dc847-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
