@@ -115,20 +115,75 @@ export default function Home() {
             <div className="text-white text-base font-sans font-normal leading-7 space-y-6">
               <p>
                 <Split splitMode="lines" delay={0}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin erat ex, pulvinar ac tempus finibus, mollis at sem. Mauris vitae sagittis purus, a finibus nisi. Mauris et rutrum odio.
-                  Phasellus nisi libero, bibendum sed libero sed, semper volutpat ligula.
+                  Men’s sheds are community spaces where men can gather, socialize, and work oncommon projects. This concept was first developed in Australia in the late 1990s, andhas since spread to
+                  other countries around the world. The history of men’s sheds isclosely tied to issues of mental health and social isolation, and has become animportant part of the community support
+                  systems in many places
                 </Split>
               </p>
               <p>
                 <Split splitMode="lines" delay={0}>
-                  Donec faucibus pharetra leo, ut aliquet nisl scelerisque eu. Ut ligula leo, luctus sit amet pellentesque et, efficitur in enim. Vestibulum iaculis sem at velit dignissim venenatis.
-                  Aliquam gravida arcu vel ipsum porta, non rhoncus dolor volutpat. Vivamus egestas velit at lacinia sagittis. Curabitur pretium dui sapien, eget pharetra tortor venenatis semper.
+                  The original idea for men’s sheds came from an Australian man named Owen Tudor, who was working for the Australian Men’s Shed Association in the early 1990s. Tudor noticed that men
+                  in his community were struggling with issues of social isolation and mental health, and wanted to create a safe space where they could come together and work on meaningful projects.
                 </Split>
+              </p>
+              <p>
+                <Split splitMode="lines" delay={0}>
+                  In response to this need, Tudor and other like-minded individuals began to establish men’s sheds in different parts of Australia. These original sheds were often set up in community
+                  centres or other shared spaces, and provided a place for men to gather, chat, and work on woodworking projects or other crafts.
+                </Split>
+              </p>
+              <p>
+                <Split splitMode="lines" delay={0}>
+                  The idea of men’s sheds quickly gained traction in Australia, and by the early 2000s there were over 200 men’s sheds in operation around the country. These sheds became important
+                  gathering places for many men who were struggling with social isolation, depression, or other mental health issues.
+                </Split>
+              </p>
+              <p>
+                <Split splitMode="lines" delay={0}>
+                  As the concept of men’s sheds spread beyond Australia, it began to evolve and adapt to local contexts. In some places, for example, men’s sheds have become important spaces for
+                  intergenerational learning, where older men can teach younger men skills like woodworking, metalworking, or car repair.
+                </Split>
+              </p>
+              <p>
+                <Split splitMode="lines" delay={0}>
+                  In other contexts, men’s sheds have become important gathering places for immigrant communities, providing a space for men to share their skills and knowledge with each other while
+                  also building new connections and friendships.
+                </Split>
+              </p>
+              <p>
+                <Split splitMode="lines" delay={0}>
+                  One of the key factors behind the success of men’s sheds has been their flexibility and adaptability. While the core idea of providing a safe and supportive space for men to gather
+                  and work on projects has remained consistent, men’s sheds have evolved to meet the needs of different communities in different ways.
+                </Split>
+              </p>
+              <p>
+                <Split splitMode="lines" delay={0}>
+                  Today, men’s sheds can be found in many countries around the world, from Ireland to New Zealand to South Africa. While the specific activities and projects may vary, the core mission
+                  of providing a space for men to connect and support each other remains as important as ever.
+                </Split>
+              </p>
+              <p>
+                <Split splitMode="lines" delay={0}>
+                  Today, men’s sheds are global and finally arrive at the coast of Ceredigion here in Borth.
+                </Split>
+              </p>
+              <p>
+                <strong>
+                  <Split splitMode="lines" delay={0}>
+                    BORTH MEN'S SHED MEETS EVERY TUESDAY 2:00-4:00 PM AT THE COMMUNITY HUB ALL WELCOME JUST COME ALONG AND JOIN IN.
+                  </Split>
+                </strong>
               </p>
             </div>
           </div>
           <div className="w-full md:w-4/12 md:ml-10">
-            <Parallax speed={0.4}>
+            <Parallax speed={0}>
+              <Image src="https://placehold.co/300x300" alt="Borths Mans Shed" width="100" height={100} unoptimized className="w-full mb-10" />
+            </Parallax>
+            <Parallax speed={0}>
+              <Image src="https://placehold.co/300x300" alt="Borths Mans Shed" width="100" height={100} unoptimized className="w-full mb-10" />
+            </Parallax>
+            <Parallax speed={0}>
               <Image src="https://placehold.co/300x300" alt="Borths Mans Shed" width="100" height={100} unoptimized className="w-full" />
             </Parallax>
           </div>
